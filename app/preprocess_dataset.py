@@ -42,12 +42,12 @@ df_cleaned['Severity Level'] = df_cleaned['Severity'].apply(categorize_severity)
 # Convert the DataFrame to a knowledge base dictionary
 knowledge_base = {}
 for _, row in df_cleaned.iterrows():
-    knowledge_base[row['CVE Name']] = {
-        "description": row['Description'],
-        "severity_score": row['Severity'],
-        "severity_level": row['Severity Level'],
-        "weakness": f"CWE-{row['Weakness']}" if not pd.isna(row['Weakness']) else "N/A",
-        "published_date": row['Published Date'],
+    knowledge_base[row["CVE Name"]] = {
+        "description": row["Description"],
+        "severity_score": row["Severity"],
+        "severity_level": row["Severity Level"],
+        "weakness": row["Weakness"],
+        "published_date": row["Published Date"]
     }
 
 # Save the processed data to JSON
