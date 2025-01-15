@@ -1,0 +1,1192 @@
+{
+    " Cross-Site Request Forgery (CSRF)": {
+        "description": "Cross-site request forgery (CSRF) vulnerability in user_admin.php in Open Media Collectors Database (OpenDb) 1.0.6 allows remote attackers to change arbitrary passwords via an update_password action.",
+        "severity_score": 5.8,
+        "severity_level": "Medium",
+        "weakness": "CWE-352",
+        "published_date": "2008-09-05 15:08:00"
+    },
+    " Incorrect Permission Assignment for Critical Resource": {
+        "description": "A security feature bypass vulnerability exists when Microsoft Browsers fail to validate the correct Security Zone of requests for specific URLs, aka 'Microsoft Browser Security Feature Bypass Vulnerability'.",
+        "severity_score": 4.3,
+        "severity_level": "Medium",
+        "weakness": "CWE-732",
+        "published_date": "2019-09-11 22:15:00"
+    },
+    " Authorization Bypass Through User-Controlled Key": {
+        "description": "In CentOS-WebPanel.com (aka CWP) CentOS Web Panel 0.9.8.851, an insecure object reference allows an attacker to remove a target user from phpMyAdmin via an attacker account.",
+        "severity_score": 5.5,
+        "severity_level": "Medium",
+        "weakness": "CWE-639",
+        "published_date": "2019-09-10 16:15:00"
+    },
+    " Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')": {
+        "description": "** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: CVE-2007-5292.  Reason: This candidate is a duplicate of CVE-2007-5292.  Notes: All CVE users should reference CVE-2007-5292 instead of this candidate.  All references and descriptions in this candidate have been removed to prevent accidental usage.",
+        "severity_score": 5.0,
+        "severity_level": "Medium",
+        "weakness": "CWE-79",
+        "published_date": "2007-10-09 21:17:00"
+    },
+    " Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')": {
+        "description": "SQL injection vulnerability in class/page.php in Farsi Script (aka FaScript) FaName 1.0 allows remote attackers to execute arbitrary SQL commands via the id parameter.  NOTE: this might be the same issue as CVE-2008-0328.",
+        "severity_score": 6.8,
+        "severity_level": "Medium",
+        "weakness": "CWE-89",
+        "published_date": "2008-07-09 00:41:00"
+    },
+    " Information Exposure": {
+        "description": "MidiCart stores the midicart.mdb database file under the Web document root, which allows remote attackers to steal sensitive information by directly requesting the database.",
+        "severity_score": 5.0,
+        "severity_level": "Medium",
+        "weakness": "CWE-200",
+        "published_date": "2003-04-11 04:00:00"
+    },
+    " Improper Input Validation": {
+        "description": "** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: CVE-2007-6113.  Reason: This candidate is a duplicate of CVE-2007-6113, Notes: All CVE users should reference CVE-2007-6113 instead of this candidate.  All references and descriptions in this candidate have been removed to prevent accidental usage.",
+        "severity_score": 5.0,
+        "severity_level": "Medium",
+        "weakness": "CWE-20",
+        "published_date": "2007-12-19 22:46:00"
+    },
+    " Cleartext Transmission of Sensitive Information": {
+        "description": "Jenkins Aqua Security Scanner Plugin 3.0.17 and earlier transmitted configured credentials in plain text as part of the global Jenkins configuration form, potentially resulting in their exposure.",
+        "severity_score": 5.0,
+        "severity_level": "Medium",
+        "weakness": "CWE-319",
+        "published_date": "2019-09-25 16:15:00"
+    },
+    " Incorrect Default Permissions": {
+        "description": "In Limesurvey before 3.17.14, admin users can access the plugin manager without proper permissions.",
+        "severity_score": 6.5,
+        "severity_level": "Medium",
+        "weakness": "CWE-276",
+        "published_date": "2019-09-09 21:15:00"
+    },
+    " Improper Privilege Management": {
+        "description": "The Swape theme before 1.2.1 for WordPress has incorrect access control, as demonstrated by allowing new administrator accounts via vectors involving xmlPath to wp-admin/admin-ajax.php.",
+        "severity_score": 7.5,
+        "severity_level": "High",
+        "weakness": "CWE-269",
+        "published_date": "2019-09-09 13:15:00"
+    },
+    " Untrusted Search Path": {
+        "description": "Untrusted search path vulnerability in Foxit Reader before 5.0.2.0718 allows local users to gain privileges via a Trojan horse dwmapi.dll, dwrite.dll, or msdrm.dll in the current working directory. Per: http://cwe.mitre.org/data/definitions/426.html\r\n'CWE-426: Untrusted Search Path'",
+        "severity_score": 9.3,
+        "severity_level": "Critical",
+        "weakness": "CWE-426",
+        "published_date": "2011-09-27 19:55:00"
+    },
+    " Neutralization of Special Elements in Output Used by a Downstream Component ('Injection')": {
+        "description": "Unspecified vulnerability in the management portal in ARRIS VAP2500 before FW08.41 allows remote attackers to execute arbitrary commands via unknown vectors.",
+        "severity_score": 10.0,
+        "severity_level": "Critical",
+        "weakness": "CWE-74",
+        "published_date": "2014-11-28 15:59:00"
+    },
+    " Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition')": {
+        "description": "sshd in OpenSSH 3.6.1p2 and earlier, when PermitRootLogin is disabled and using PAM keyboard-interactive authentication, does not insert a delay after a root login attempt with the correct password, which makes it easier for remote attackers to use timing differences to determine if the password step of a multi-step authentication is successful, a different vulnerability than CVE-2003-0190.",
+        "severity_score": 7.6,
+        "severity_level": "High",
+        "weakness": "CWE-362",
+        "published_date": "2003-12-31 05:00:00"
+    },
+    " Improper Check for Dropped Privileges": {
+        "description": "AlienVault USM and OSSIM before 5.3.7 and NfSen before 1.3.8 have an error in privilege dropping and unnecessarily execute the NfSen Perl code as root, aka AlienVault ID ENG-104945, a different vulnerability than CVE-2017-6970 and CVE-2017-6971.",
+        "severity_score": 10.0,
+        "severity_level": "Critical",
+        "weakness": "CWE-273",
+        "published_date": "2017-03-22 20:59:00"
+    },
+    " Use After Free": {
+        "description": "epan/dissectors/packet-ipmi-trace.c in the IPMI trace dissector in Wireshark 2.x before 2.0.6 does not properly consider whether a string is constant, which allows remote attackers to cause a denial of service (use-after-free and application crash) via a crafted packet.",
+        "severity_score": 4.3,
+        "severity_level": "Medium",
+        "weakness": "CWE-416",
+        "published_date": "2016-09-09 10:59:00"
+    },
+    " Improper Link Resolution Before File Access ('Link Following')": {
+        "description": "Sun PC NetLink 1.0 through 1.2 does not properly set the access control list (ACL) for files and directories that use symbolic links and have been restored from backup, which could allow local or remote attackers to bypass intended access restrictions.",
+        "severity_score": 5.0,
+        "severity_level": "Medium",
+        "weakness": "CWE-59",
+        "published_date": "2002-12-31 05:00:00"
+    },
+    " Improper Restriction of XML External Entity Reference": {
+        "description": "IBM Security Privileged Identity Manager (ISPIM) Virtual Appliance 2.x before 2.0.2 FP8 allows remote authenticated users to read arbitrary files or cause a denial of service (memory consumption) via an XML document containing an external entity declaration in conjunction with an entity reference, related to an XML External Entity (XXE) issue.",
+        "severity_score": 5.5,
+        "severity_level": "Medium",
+        "weakness": "CWE-611",
+        "published_date": "2016-09-26 04:59:00"
+    },
+    " Unrestricted Upload of File with Dangerous Type": {
+        "description": "Remote file upload vulnerability in mailcwp v1.99 wordpress plugin",
+        "severity_score": 5.0,
+        "severity_level": "Medium",
+        "weakness": "CWE-434",
+        "published_date": "2016-10-06 14:59:00"
+    },
+    " Improper Authentication": {
+        "description": "** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: CVE-2008-0887.  Reason: This candidate is a duplicate of CVE-2008-0887.  Notes: All CVE users should reference CVE-2008-0887 instead of this candidate.  All references and descriptions in this candidate have been removed to prevent accidental usage.",
+        "severity_score": 5.0,
+        "severity_level": "Medium",
+        "weakness": "CWE-287",
+        "published_date": "2008-04-06 23:44:00"
+    },
+    " Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')": {
+        "description": "Directory traversal vulnerability in FutureSoft TFTP Server Evaluation Version 1.0.0.1 allows remote attackers to read arbitrary files via a TFTP GET request containing (1) \"../\" (dot dot slash) or (2) \"..\\\" (dot dot backslash) sequences.",
+        "severity_score": 7.8,
+        "severity_level": "High",
+        "weakness": "CWE-22",
+        "published_date": "2005-06-01 04:00:00"
+    },
+    " Improper Certificate Validation": {
+        "description": "The default configuration of Fortinet Fortigate UTM appliances uses the same Certification Authority certificate and same private key across different customers' installations, which makes it easier for man-in-the-middle attackers to spoof SSL servers by leveraging the presence of the Fortinet_CA_SSLProxy certificate in a list of trusted root certification authorities.",
+        "severity_score": 5.3,
+        "severity_level": "Medium",
+        "weakness": "CWE-295",
+        "published_date": "2012-11-14 12:30:00"
+    },
+    " Uncontrolled Resource Consumption": {
+        "description": "The \"process-execute\" and \"process-spawn\" procedures did not free memory correctly when the execve() call failed, resulting in a memory leak. This could be abused by an attacker to cause resource exhaustion or a denial of service. This affects all releases of CHICKEN up to and including 4.11 (it will be fixed in 4.12 and 5.0, which are not yet released).",
+        "severity_score": 5.0,
+        "severity_level": "Medium",
+        "weakness": "CWE-400",
+        "published_date": "2017-01-10 15:59:00"
+    },
+    " Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')": {
+        "description": "Multiple argument injection vulnerabilities in Mozilla Firefox 2.0.0.5 and 3.0alpha allow remote attackers to execute arbitrary commands via a NULL byte (%00) and shell metacharacters in a (1) mailto, (2) nntp, (3) news, (4) snews, or (5) telnet URI, a similar issue to CVE-2007-3670.",
+        "severity_score": 6.8,
+        "severity_level": "Medium",
+        "weakness": "CWE-78",
+        "published_date": "2007-07-27 22:30:00"
+    },
+    " Out-of-bounds Read": {
+        "description": "epan/dissectors/packet-qnet6.c in the QNX6 QNET dissector in Wireshark 2.x before 2.0.6 mishandles MAC address data, which allows remote attackers to cause a denial of service (out-of-bounds read and application crash) via a crafted packet.",
+        "severity_score": 4.3,
+        "severity_level": "Medium",
+        "weakness": "CWE-125",
+        "published_date": "2016-09-09 10:59:00"
+    },
+    " Integer Overflow or Wraparound": {
+        "description": "Integer overflow in the OZDocument::parseElement function in Apple Motion 5.0.7 allows remote attackers to cause a denial of service (application crash) via a (1) large or (2) small value in the subview attribute of a viewer element in a .motn file.",
+        "severity_score": 5.0,
+        "severity_level": "Medium",
+        "weakness": "CWE-190",
+        "published_date": "2013-11-04 15:55:00"
+    },
+    " NULL Pointer Dereference": {
+        "description": "drivers/media/platform/msm/broadcast/tsc.c in the TSC driver for the Linux kernel 3.x, as used in Qualcomm Innovation Center (QuIC) Android contributions for MSM devices and other products, allows attackers to cause a denial of service (invalid pointer dereference) or possibly have unspecified other impact via a crafted application that makes a TSC_GET_CARD_STATUS ioctl call.",
+        "severity_score": 10.0,
+        "severity_level": "Critical",
+        "weakness": "CWE-476",
+        "published_date": "2016-08-07 21:59:00"
+    },
+    " Inclusion of Sensitive Information in Log Files": {
+        "description": "The ovirt-engine-provisiondb utility in Red Hat Enterprise Virtualization (RHEV) Engine 4.0 allows local users to obtain sensitive database provisioning information by reading log files.",
+        "severity_score": 2.1,
+        "severity_level": "Low",
+        "weakness": "CWE-532",
+        "published_date": "2016-10-03 18:59:00"
+    },
+    " Improper Restriction of Operations within the Bounds of a Memory Buffer": {
+        "description": "** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: CVE-2007-2788.  Reason: This candidate is a duplicate of CVE-2007-2788.  Notes: All CVE users should reference CVE-2007-2788 instead of this candidate.  All references and descriptions in this candidate have been removed to prevent accidental usage.",
+        "severity_score": 5.0,
+        "severity_level": "Medium",
+        "weakness": "CWE-119",
+        "published_date": "2007-06-04 17:30:00"
+    },
+    " Exposure of Resource to Wrong Sphere": {
+        "description": "cPanel before 68.0.27 allows certain file-write operations via the telnetcrt script (SEC-356).",
+        "severity_score": 2.1,
+        "severity_level": "Low",
+        "weakness": "CWE-668",
+        "published_date": "2019-08-01 17:15:00"
+    },
+    " Buffer Copy without Checking Size of Input ('Classic Buffer Overflow')": {
+        "description": "Stack-based buffer overflow in Advantech WebAccess/SCADA 8.4.1 allows a remote, unauthenticated attacker to execute arbitrary code via a crafted IOCTL 70603 RPC message.",
+        "severity_score": 7.5,
+        "severity_level": "High",
+        "weakness": "CWE-120",
+        "published_date": "2019-09-10 16:15:00"
+    },
+    " Improper Restriction of Excessive Authentication Attempts": {
+        "description": "phpMyFAQ before 2.9.8 does not properly mitigate brute-force attacks that try many passwords in attempted logins quickly.",
+        "severity_score": 5.0,
+        "severity_level": "Medium",
+        "weakness": "CWE-307",
+        "published_date": "2017-07-12 14:29:00"
+    },
+    " Out-of-bounds Write": {
+        "description": "epan/dissectors/packet-umts_fp.c in the UMTS FP dissector in Wireshark 2.x before 2.0.6 does not ensure that memory is allocated for certain data structures, which allows remote attackers to cause a denial of service (invalid write access and application crash) via a crafted packet.",
+        "severity_score": 4.3,
+        "severity_level": "Medium",
+        "weakness": "CWE-787",
+        "published_date": "2016-09-09 10:59:00"
+    },
+    " Insufficiently Protected Credentials": {
+        "description": "An issue was discovered in TeamViewer 14.2.2558. Updating the product as a non-administrative user requires entering administrative credentials into the GUI. Subsequently, these credentials are processed in Teamviewer.exe, which allows any application running in the same non-administrative user context to intercept them in cleartext within process memory. By using this technique, a local attacker is able to obtain administrative credentials in order to elevate privileges. This vulnerability can be exploited by injecting code into Teamviewer.exe which intercepts calls to GetWindowTextW and logs the processed credentials.",
+        "severity_score": 7.2,
+        "severity_level": "High",
+        "weakness": "CWE-522",
+        "published_date": "2019-09-11 20:15:00"
+    },
+    " Improper Check for Unusual or Exceptional Conditions": {
+        "description": "Improper checks for unusual or exceptional conditions in Brocade NetIron 05.8.00 and later releases up to and including 06.1.00, when the Management Module is continuously scanned on port 22, may allow attackers to cause a denial of service (crash and reload) of the management module.",
+        "severity_score": 5.0,
+        "severity_level": "Medium",
+        "weakness": "CWE-754",
+        "published_date": "2017-05-08 18:29:00"
+    },
+    " Incorrect Authorization": {
+        "description": "An issue was discovered in GitLab Community and Enterprise Edition 8.x (starting in 8.9), 9.x, 10.x, and 11.x before 11.5.9, 11.6.x before 11.6.7, and 11.7.x before 11.7.2. It has Incorrect Access Control. Guest users are able to add reaction emojis on comments to which they have no visibility.",
+        "severity_score": 4.3,
+        "severity_level": "Medium",
+        "weakness": "CWE-863",
+        "published_date": "2019-09-09 21:15:00"
+    },
+    " Improper Handling of Exceptional Conditions": {
+        "description": "Advantech WebAccess/HMI Designer 2.1.9.31 has Exception Handler Chain corruption starting at Unknown Symbol @ 0x0000000000000000 called from ntdll!RtlRaiseStatus+0x00000000000000b4.",
+        "severity_score": 5.0,
+        "severity_level": "Medium",
+        "weakness": "CWE-755",
+        "published_date": "2019-09-26 01:15:00"
+    },
+    " Externally Controlled Reference to a Resource in Another Sphere": {
+        "description": "Shopware before 5.3.4 has a PHP Object Instantiation issue via the sort parameter to the loadPreviewAction() method of the Shopware_Controllers_Backend_ProductStream controller, with resultant XXE via instantiation of a SimpleXMLElement object.",
+        "severity_score": 4.0,
+        "severity_level": "Medium",
+        "weakness": "CWE-610",
+        "published_date": "2019-01-15 16:29:00"
+    },
+    " Missing Authorization": {
+        "description": "An issue was discovered in PRiSE adAS 1.7.0. An authenticated user can change the function used to hash passwords to any function, leading to remote code execution.",
+        "severity_score": 6.5,
+        "severity_level": "Medium",
+        "weakness": "CWE-862",
+        "published_date": "2019-09-20 14:15:00"
+    },
+    " Missing Release of Resource after Effective Lifetime": {
+        "description": "ImageMagick 7.0.8-35 has a memory leak in magick/xwindow.c, related to XCreateImage.",
+        "severity_score": 4.3,
+        "severity_level": "Medium",
+        "weakness": "CWE-772",
+        "published_date": "2019-09-23 12:15:00"
+    },
+    " Session Fixation": {
+        "description": "IBM Jazz Foundation could allow an authenticated user to take over a previously logged in user due to session expiration not being enforced.",
+        "severity_score": 6.0,
+        "severity_level": "Medium",
+        "weakness": "CWE-384",
+        "published_date": "2017-02-01 20:59:00"
+    },
+    " Insufficient Session Expiration": {
+        "description": "Sierra Wireless GX 440 devices with ALEOS firmware 4.3.2 use guessable session tokens, which are in the URL.",
+        "severity_score": 7.5,
+        "severity_level": "High",
+        "weakness": "CWE-613",
+        "published_date": "2017-04-10 03:59:00"
+    },
+    " Improper Validation of Integrity Check Value": {
+        "description": "Nimbus JOSE+JWT before 4.39 proceeds improperly after detection of an invalid HMAC in authenticated AES-CBC decryption, which allows attackers to conduct a padding oracle attack.",
+        "severity_score": 4.3,
+        "severity_level": "Medium",
+        "weakness": "CWE-354",
+        "published_date": "2017-08-20 16:29:00"
+    },
+    " Use of a Broken or Risky Cryptographic Algorithm": {
+        "description": "An issue was discovered in Mitsubishi Electric Automation MELSEC-Q series Ethernet interface modules QJ71E71-100, all versions, QJ71E71-B5, all versions, and QJ71E71-B2, all versions. Weakly encrypted passwords are transmitted to a MELSEC-Q PLC.",
+        "severity_score": 5.0,
+        "severity_level": "Medium",
+        "weakness": "CWE-327",
+        "published_date": "2017-02-13 21:59:00"
+    },
+    " Authentication Bypass by Spoofing": {
+        "description": "OpenDMARC through 1.3.2 and 1.4.x through 1.4.0-Beta1 is prone to a signature-bypass vulnerability with multiple From: addresses, which might affect applications that consider a domain name to be relevant to the origin of an e-mail message.",
+        "severity_score": 7.5,
+        "severity_level": "High",
+        "weakness": "CWE-290",
+        "published_date": "2019-09-17 12:15:00"
+    },
+    " Use of Externally-Controlled Format String": {
+        "description": "Format string vulnerability in the logging function in the Oracle OPMN daemon, as used on Oracle Enterprise Grid Console server 10.2.0.1, allows remote attackers to execute arbitrary code via format string specifiers in the URI in an HTTP request to port 6003, aka Oracle reference number 6296175.  NOTE: this might be the same issue as CVE-2007-0282 or CVE-2007-0280, but there are insufficient details to be sure.",
+        "severity_score": 10.0,
+        "severity_level": "Critical",
+        "weakness": "CWE-134",
+        "published_date": "2007-10-18 20:17:00"
+    },
+    " Reachable Assertion": {
+        "description": "The hidden-service feature in Tor before 0.3.0.8 allows a denial of service (assertion failure and daemon exit) in the relay_send_end_cell_from_edge_ function via a malformed BEGIN cell.",
+        "severity_score": 5.0,
+        "severity_level": "Medium",
+        "weakness": "CWE-617",
+        "published_date": "2017-06-09 17:29:00"
+    },
+    " Server-Side Request Forgery (SSRF)": {
+        "description": "HPE Release Control (RC) 9.13, 9.20, and 9.21 before 9.21.0005 p4 allows remote authenticated users to conduct server-side request forgery (SSRF) attacks, and consequently obtain sensitive information or cause a denial of service, via unspecified vectors.",
+        "severity_score": 4.0,
+        "severity_level": "Medium",
+        "weakness": "CWE-918",
+        "published_date": "2016-08-08 00:59:00"
+    },
+    " Double Free": {
+        "description": "Double free vulnerability in the SplDoublyLinkedList::offsetSet function in ext/spl/spl_dllist.c in PHP 7.x before 7.0.6 allows remote attackers to execute arbitrary code via a crafted index.",
+        "severity_score": 7.5,
+        "severity_level": "High",
+        "weakness": "CWE-415",
+        "published_date": "2016-08-07 10:59:00"
+    },
+    " Insufficient Verification of Data Authenticity": {
+        "description": "resolv.c in the DNS resolver in uIP, and dns.c in the DNS resolver in lwIP 1.4.1 and earlier, does not use random values for ID fields and source ports of DNS query packets, which makes it easier for man-in-the-middle attackers to conduct cache-poisoning attacks via spoofed reply packets.",
+        "severity_score": 4.3,
+        "severity_level": "Medium",
+        "weakness": "CWE-345",
+        "published_date": "2014-11-28 02:59:00"
+    },
+    " Download of Code Without Integrity Check": {
+        "description": "Mate 9 smartphones with software MHA-AL00AC00B125 have a privilege escalation vulnerability in Push module. An attacker tricks a user to save a rich media into message on the smart phone, which could be exploited to cause the attacker to delete message or fake user to send message.",
+        "severity_score": 5.8,
+        "severity_level": "Medium",
+        "weakness": "CWE-494",
+        "published_date": "2017-11-22 19:29:00"
+    },
+    " Missing Encryption of Sensitive Data": {
+        "description": "In situations where an attacker receives automated notification of the success or failure of a decryption attempt an attacker, after sending a very large number of messages to be decrypted, can recover a CMS/PKCS7 transported encryption key or decrypt any RSA encrypted message that was encrypted with the public RSA key, using a Bleichenbacher padding oracle attack. Applications are not affected if they use a certificate together with the private RSA key to the CMS_decrypt or PKCS7_decrypt functions to select the correct recipient info to decrypt. Fixed in OpenSSL 1.1.1d (Affected 1.1.1-1.1.1c). Fixed in OpenSSL 1.1.0l (Affected 1.1.0-1.1.0k). Fixed in OpenSSL 1.0.2t (Affected 1.0.2-1.0.2s).",
+        "severity_score": 4.3,
+        "severity_level": "Medium",
+        "weakness": "CWE-311",
+        "published_date": "2019-09-10 17:15:00"
+    },
+    " Deserialization of Untrusted Data": {
+        "description": "The default configuration of the ObjectRepresentation class in Restlet before 2.1.4 deserializes objects from untrusted sources, which allows remote attackers to execute arbitrary Java code via a serialized object, a different vulnerability than CVE-2013-4221.",
+        "severity_score": 7.5,
+        "severity_level": "High",
+        "weakness": "CWE-502",
+        "published_date": "2013-10-10 00:55:00"
+    },
+    " Loop with Unreachable Exit Condition ('Infinite Loop')": {
+        "description": "In QEMU 1:4.1-1, 1:2.1+dfsg-12+deb8u6, 1:2.8+dfsg-6+deb9u8, 1:3.1+dfsg-8~deb10u1, 1:3.1+dfsg-8+deb10u2, and 1:2.1+dfsg-12+deb8u12 (fixed), when executing script in lsi_execute_script(), the LSI scsi adapter emulator advances 's->dsp' index to read next opcode. This can lead to an infinite loop if the next opcode is empty. Move the existing loop exit after 10k iterations so that it covers no-op opcodes as well.",
+        "severity_score": 5.0,
+        "severity_level": "Medium",
+        "weakness": "CWE-835",
+        "published_date": "2019-09-24 20:15:00"
+    },
+    " Uncontrolled Recursion": {
+        "description": "A denial of service vulnerability in the Android media framework. Product: Android. Versions: 4.4.4, 5.0.2, 5.1.1, 6.0, 6.0.1, 7.0, 7.1.1, 7.1.2. Android ID: A-36725407.",
+        "severity_score": 4.3,
+        "severity_level": "Medium",
+        "weakness": "CWE-674",
+        "published_date": "2017-07-06 20:29:00"
+    },
+    " Use of Hard-coded Credentials": {
+        "description": "ZModo ZP-NE14-S and ZP-IBH-13W devices have a hardcoded root password, which makes it easier for remote attackers to obtain access via a TELNET session.",
+        "severity_score": 10.0,
+        "severity_level": "Critical",
+        "weakness": "CWE-798",
+        "published_date": "2016-08-24 02:00:00"
+    },
+    " Access of Uninitialized Pointer": {
+        "description": "An uninitialized stack variable vulnerability in load_tic_series() in set.c in gnuplot 5.2.rc1 allows an attacker to cause Denial of Service (Segmentation fault and Memory Corruption) or possibly have unspecified other impact when a victim opens a specially crafted file.",
+        "severity_score": 6.8,
+        "severity_level": "Medium",
+        "weakness": "CWE-824",
+        "published_date": "2017-06-15 13:29:00"
+    },
+    " XML Injection (aka Blind XPath Injection)": {
+        "description": "The default configuration of the ObjectRepresentation class in Restlet before 2.1.4 deserializes objects from untrusted sources using the Java XMLDecoder, which allows remote attackers to execute arbitrary Java code via crafted XML.",
+        "severity_score": 7.5,
+        "severity_level": "High",
+        "weakness": "CWE-91",
+        "published_date": "2013-10-10 00:55:00"
+    },
+    " Use of Insufficiently Random Values": {
+        "description": "Johnson & Johnson Animas OneTouch Ping devices do not properly generate random numbers, which makes it easier for remote attackers to spoof meters by sniffing the network and then engaging in an authentication handshake.",
+        "severity_score": 7.8,
+        "severity_level": "High",
+        "weakness": "CWE-330",
+        "published_date": "2016-10-05 10:59:00"
+    },
+    " Improper Verification of Cryptographic Signature": {
+        "description": "Signature Wrapping exists in OSCI-Transport 1.2 as used in OSCI Transport Library 1.6.1 (Java) and OSCI Transport Library 1.6 (.NET). An attacker with access to unencrypted OSCI protocol messages must send crafted protocol messages with duplicate IDs.",
+        "severity_score": 6.4,
+        "severity_level": "Medium",
+        "weakness": "CWE-347",
+        "published_date": "2017-06-30 12:29:00"
+    },
+    " Cleartext Storage of Sensitive Information": {
+        "description": "Jenkins GitLab Logo Plugin stores credentials unencrypted in its global configuration file on the Jenkins master where they can be viewed by users with access to the master file system.",
+        "severity_score": 2.1,
+        "severity_level": "Low",
+        "weakness": "CWE-312",
+        "published_date": "2019-09-25 16:15:00"
+    },
+    " Insecure Default Initialization of Resource": {
+        "description": "An issue was discovered on Siemens SICAM RTUs SM-2556 COM Modules with the firmware variants ENOS00, ERAC00, ETA2, ETLS00, MODi00, and DNPi00. The integrated web server (port 80/tcp) of the affected devices could allow unauthenticated remote attackers to execute arbitrary code on the affected device.",
+        "severity_score": 10.0,
+        "severity_level": "Critical",
+        "weakness": "CWE-1188",
+        "published_date": "2017-11-15 08:29:00"
+    },
+    " Weak Password Recovery Mechanism for Forgotten Password": {
+        "description": "The web portal in IBM Tealeaf Customer Experience before 8.7.1.8847 FP10, 8.8 before 8.8.0.9049 FP9, 9.0.0 and 9.0.1 before 9.0.1.1117 FP5, 9.0.1A before 9.0.1.5108_9.0.1A FP5, 9.0.2 before 9.0.2.1223 FP3, and 9.0.2A before 9.0.2.5224_9.0.2A FP3 does not enforce password-length restrictions, which makes it easier for remote attackers to obtain access via a brute-force attack.",
+        "severity_score": 5.0,
+        "severity_level": "Medium",
+        "weakness": "CWE-640",
+        "published_date": "2016-09-26 04:59:00"
+    },
+    " Use of Password Hash With Insufficient Computational Effort": {
+        "description": "An issue was discovered in heinekingmedia StashCat through 1.7.5 for Android, through 0.0.80w for Web, and through 0.0.86 for Desktop. For authentication, the user password is hashed directly with SHA-512 without a salt or another key-derivation mechanism to enable a secure secret for authentication. Moreover, only the first 32 bytes of the hash are used. This allows for easy dictionary and rainbow-table attacks if an attacker has access to the password hash.",
+        "severity_score": 4.3,
+        "severity_level": "Medium",
+        "weakness": "CWE-916",
+        "published_date": "2017-08-01 14:29:00"
+    },
+    " Incorrect Type Conversion or Cast": {
+        "description": "Adobe Acrobat Reader versions 15.020.20042 and earlier, 15.006.30244 and earlier, 11.0.18 and earlier have an exploitable type confusion vulnerability in the XSLT engine related to localization functionality. Successful exploitation could lead to arbitrary code execution.",
+        "severity_score": 9.3,
+        "severity_level": "Critical",
+        "weakness": "CWE-704",
+        "published_date": "2017-01-11 04:59:00"
+    },
+    " URL Redirection to Untrusted Site ('Open Redirect')": {
+        "description": "Multiple open redirect vulnerabilities in Pivotal Cloud Foundry (PCF) Elastic Runtime before 1.6.30 and 1.7.x before 1.7.8 allow remote attackers to redirect users to arbitrary web sites and conduct phishing attacks via unspecified vectors.",
+        "severity_score": 5.8,
+        "severity_level": "Medium",
+        "weakness": "CWE-601",
+        "published_date": "2016-09-18 02:59:00"
+    },
+    " Permissions Privileges and Access Controls": {
+        "description": "** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: CVE-2008-0928.  Reason: This candidate is a duplicate of CVE-2008-0928.  Notes: All CVE users should reference CVE-2008-0928 instead of this candidate.  All references and descriptions in this candidate have been removed to prevent accidental usage.",
+        "severity_score": 5.0,
+        "severity_level": "Medium",
+        "weakness": "CWE-264",
+        "published_date": "2008-03-03 18:44:00"
+    },
+    " Missing Authentication for Critical Function": {
+        "description": "An issue was discovered in BINOM3 Universal Multifunctional Electric Power Quality Meter. Lack of authentication for remote service gives access to application set up and configuration.",
+        "severity_score": 10.0,
+        "severity_level": "Critical",
+        "weakness": "CWE-306",
+        "published_date": "2017-02-13 21:59:00"
+    },
+    " Inclusion of Functionality from Untrusted Control Sphere": {
+        "description": "A flaw in the IBM J9 VM class verifier allows untrusted code to disable the security manager and elevate its privileges. IBM X-Force ID: 126873.",
+        "severity_score": 7.5,
+        "severity_level": "High",
+        "weakness": "CWE-829",
+        "published_date": "2017-08-29 01:35:00"
+    },
+    " Improper Validation of Array Index": {
+        "description": "All versions of NVIDIA Windows GPU Display Driver contain a vulnerability in the kernel mode layer (nvlddmkm.sys) handler for DxgDdiEscape where a value passed from a user to the driver is used without validation as the index to an array, leading to denial of service or potential escalation of privileges.",
+        "severity_score": 7.2,
+        "severity_level": "High",
+        "weakness": "CWE-129",
+        "published_date": "2016-12-16 21:59:00"
+    },
+    " Use of Uninitialized Resource": {
+        "description": "In libstagefright there is a possible information disclosure due to uninitialized data. This could lead to remote information disclosure with no additional execution privileges needed. User interaction is needed for exploitation. Product: AndroidVersions: Android-10Android ID: A-111804142",
+        "severity_score": 4.3,
+        "severity_level": "Medium",
+        "weakness": "CWE-1187",
+        "published_date": "2019-09-27 19:15:00"
+    },
+    " Weak Password Requirements": {
+        "description": "IBM BigFix Compliance (TEMA SUAv1 SCA SCM) 1.9.70 does not require that users should have strong passwords by default, which makes it easier for attackers to compromise user accounts. IBM X-Force ID: 123671.",
+        "severity_score": 5.0,
+        "severity_level": "Medium",
+        "weakness": "CWE-521",
+        "published_date": "2017-06-07 17:29:00"
+    },
+    " Use of Cryptographically Weak Pseudo-Random Number Generator (PRNG)": {
+        "description": "An issue was discovered on the D-Link DWR-932B router. WPS PIN generation is based on srand(time(0)) seeding.",
+        "severity_score": 5.0,
+        "severity_level": "Medium",
+        "weakness": "CWE-338",
+        "published_date": "2017-01-30 04:59:00"
+    },
+    " Improper Initialization": {
+        "description": "In Boot in all Android releases from CAF using the Linux kernel, a Use of Uninitialized Variable vulnerability could potentially exist.",
+        "severity_score": 9.3,
+        "severity_level": "Critical",
+        "weakness": "CWE-665",
+        "published_date": "2017-06-06 14:29:00"
+    },
+    " Insufficient Entropy": {
+        "description": "Invision Power Services (IPS) Community Suite before 4.1.9 makes session hijack easier by relying on the PHP uniqid function without the more_entropy flag. Attackers can guess an Invision Power Board session cookie if they can predict the exact time of cookie generation.",
+        "severity_score": 4.3,
+        "severity_level": "Medium",
+        "weakness": "CWE-331",
+        "published_date": "2017-04-23 15:59:00"
+    },
+    " Inadequate Encryption Strength": {
+        "description": "Huawei AR routers with software before V200R007C00SPC100; Quidway S9300 routers with software before V200R009C00; S12700 routers with software before V200R008C00SPC500; S9300, Quidway S5300, and S5300 routers with software before V200R007C00; and S5700 routers with software before V200R007C00SPC500 make it easier for remote authenticated administrators to obtain and decrypt passwords by leveraging selection of a reversible encryption algorithm.",
+        "severity_score": 4.0,
+        "severity_level": "Medium",
+        "weakness": "CWE-326",
+        "published_date": "2016-10-03 21:59:00"
+    },
+    " Improper Restriction of Recursive Entity References in DTDs ('XML Entity Expansion')": {
+        "description": "Apache POI in versions prior to release 3.15 allows remote attackers to cause a denial of service (CPU consumption) via a specially crafted OOXML file, aka an XML Entity Expansion (XEE) attack.",
+        "severity_score": 7.1,
+        "severity_level": "High",
+        "weakness": "CWE-776",
+        "published_date": "2017-03-24 14:59:00"
+    },
+    " Improper Control of Generation of Code ('Code Injection')": {
+        "description": "** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: CVE-2007-6167.  Reason: This candidate is a duplicate of CVE-2007-6167.  Notes: All CVE users should reference CVE-2007-6167 instead of this candidate.  All references and descriptions in this candidate have been removed to prevent accidental usage.",
+        "severity_score": 5.0,
+        "severity_level": "Medium",
+        "weakness": "CWE-94",
+        "published_date": "2008-01-10 01:46:00"
+    },
+    " Authentication Bypass by Capture-replay": {
+        "description": "Skype for Business in Microsoft Lync 2013 SP1 and Skype for Business 2016 allows an attacker to steal an authentication hash that can be reused elsewhere, due to how Skype for Business handles authentication requests, aka \"Skype for Business Elevation of Privilege Vulnerability.\"",
+        "severity_score": 9.3,
+        "severity_level": "Critical",
+        "weakness": "CWE-294",
+        "published_date": "2017-10-13 13:29:00"
+    },
+    " Resource Management Errors": {
+        "description": "** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: CVE-2007-6118.  Reason: This candidate is a duplicate of CVE-2007-6118.  Notes: All CVE users should reference CVE-2007-6118 instead of this candidate.  All references and descriptions in this candidate have been removed to prevent accidental usage.",
+        "severity_score": 5.0,
+        "severity_level": "Medium",
+        "weakness": "CWE-399",
+        "published_date": "2007-12-19 22:46:00"
+    },
+    " Improper Resource Shutdown or Release": {
+        "description": "drivers/hid/hid-cp2112.c in the Linux kernel 4.9.x before 4.9.9 uses a spinlock without considering that sleeping is possible in a USB HID request callback, which allows local users to cause a denial of service (deadlock) via unspecified vectors.",
+        "severity_score": 2.1,
+        "severity_level": "Low",
+        "weakness": "CWE-404",
+        "published_date": "2017-04-23 05:59:00"
+    },
+    " Access of Resource Using Incompatible Type ('Type Confusion')": {
+        "description": "An elevation of privilege vulnerability in the Upstream kernel bluez. Product: Android. Versions: Android kernel. Android ID: A-63527053.",
+        "severity_score": 4.6,
+        "severity_level": "Medium",
+        "weakness": "CWE-843",
+        "published_date": "2018-01-12 23:29:00"
+    },
+    " 7PK - Security Features": {
+        "description": "Apache Cordova Android before 3.5.1 allows remote attackers to bypass the HTTP whitelist and connect to arbitrary servers by using JavaScript to open WebSocket connections through WebView.",
+        "severity_score": 4.3,
+        "severity_level": "Medium",
+        "weakness": "CWE-254",
+        "published_date": "2014-11-15 21:59:00"
+    },
+    " Unquoted Search Path or Element": {
+        "description": "Unquoted Windows search path vulnerability in the ptservice service in PrivateTunnel 2.3.8, as bundled in OpenVPN 2.1.28.0 allows local users to gain privileges via a crafted program.exe file in the %SYSTEMDRIVE% folder. <a href=\"http://cwe.mitre.org/data/definitions/428.html\" target=\"_blank\">CWE-428: Unquoted Search Path or Element</a>",
+        "severity_score": 6.9,
+        "severity_level": "Medium",
+        "weakness": "CWE-428",
+        "published_date": "2014-08-25 16:55:00"
+    },
+    " Files or Directories Accessible to External Parties": {
+        "description": "Vulnerability in Wordpress plugin BackWPup before v3.4.2 allows possible brute forcing of backup file for download.",
+        "severity_score": 5.0,
+        "severity_level": "Medium",
+        "weakness": "CWE-552",
+        "published_date": "2017-09-28 01:29:00"
+    },
+    " Improper Restriction of Rendered UI Layers or Frames": {
+        "description": "A clickjacking vulnerability was found in Limesurvey before 3.17.14.",
+        "severity_score": 4.3,
+        "severity_level": "Medium",
+        "weakness": "CWE-1021",
+        "published_date": "2019-09-09 21:15:00"
+    },
+    " Allocation of Resources Without Limits or Throttling": {
+        "description": "In Bluetooth, there is a possible remote code execution due to an improper memory allocation. This could lead to remote code execution in Bluetooth with no additional execution privileges needed. User interaction is needed for exploitation. Product: AndroidVersions: Android-10Android ID: A-112159179",
+        "severity_score": 6.8,
+        "severity_level": "Medium",
+        "weakness": "CWE-770",
+        "published_date": "2019-09-27 19:15:00"
+    },
+    " Incorrect Resource Transfer Between Spheres": {
+        "description": "The web server in Aternity before 9.0.1 does not require authentication for getMBeansFromURL loading of Java MBeans, which allows remote attackers to execute arbitrary Java code by registering MBeans.",
+        "severity_score": 9.3,
+        "severity_level": "Critical",
+        "weakness": "CWE-669",
+        "published_date": "2016-09-29 10:59:00"
+    },
+    " Time-of-check Time-of-use (TOCTOU) Race Condition": {
+        "description": "An elevation of privilege vulnerability in the NVIDIA video driver could enable a local malicious application to execute arbitrary code within the context of the kernel. This issue is rated as Critical due to the possibility of a local permanent device compromise, which may require reflashing the operating system to repair the device. Product: Android. Versions: Kernel 3.10. Android ID: A-34113000. References: N-CVE-2017-0331.",
+        "severity_score": 9.3,
+        "severity_level": "Critical",
+        "weakness": "CWE-367",
+        "published_date": "2017-05-02 21:59:00"
+    },
+    " Credentials Management": {
+        "description": "** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: CVE-2008-1218.  Reason: This candidate is a duplicate of CVE-2008-1218.  Notes: All CVE users should reference CVE-2008-1218 instead of this candidate.  All references and descriptions in this candidate have been removed to prevent accidental usage.",
+        "severity_score": 5.0,
+        "severity_level": "Medium",
+        "weakness": "CWE-255",
+        "published_date": "2008-03-10 21:44:00"
+    },
+    " Interpretation Conflict": {
+        "description": "An issue was discovered in Xen through 4.11.x allowing x86 PV guest OS users to cause a denial of service (host OS crash) or possibly gain host OS privileges because of an interpretation conflict for a union data structure associated with shadow paging. NOTE: this issue exists because of an incorrect fix for CVE-2017-15595.",
+        "severity_score": 7.2,
+        "severity_level": "High",
+        "weakness": "CWE-436",
+        "published_date": "2018-12-08 04:29:00"
+    },
+    " Integer Underflow (Wrap or Wraparound)": {
+        "description": "Integer overflow in drivers/char/diag/diag_dci.c in the Qualcomm components in Android before 2016-08-05 on Nexus 5 and 7 (2013) devices allows attackers to gain privileges or obtain sensitive information via a crafted application, aka Android internal bug 28769912 and Qualcomm internal bug CR565160.",
+        "severity_score": 6.8,
+        "severity_level": "Medium",
+        "weakness": "CWE-191",
+        "published_date": "2016-08-06 10:59:00"
+    },
+    " Uncontrolled Search Path Element": {
+        "description": "ABB DataManagerPro 1.x before 1.7.1 allows local users to gain privileges by replacing a DLL file in the package directory.",
+        "severity_score": 6.9,
+        "severity_level": "Medium",
+        "weakness": "CWE-427",
+        "published_date": "2016-09-19 01:59:00"
+    },
+    " Inconsistent Interpretation of HTTP Requests ('HTTP Request Smuggling')": {
+        "description": "In the web management interface in Foscam C1 Indoor HD cameras with application firmware 2.52.2.37, a specially crafted HTTP request can allow for a user to inject arbitrary characters in the pureftpd.passwd file during a username change, which in turn allows for bypassing chroot restrictions in the FTP server. An attacker can simply send an HTTP request to the device to trigger this vulnerability.",
+        "severity_score": 6.5,
+        "severity_level": "Medium",
+        "weakness": "CWE-444",
+        "published_date": "2017-06-29 17:29:00"
+    },
+    " Reliance on Cookies without Validation and Integrity Checking": {
+        "description": "Privilege escalation vulnerability on the DIGISOL DG-HR1400 1.00.02 wireless router enables an attacker to escalate from user privilege to admin privilege just by modifying the Base64-encoded session cookie value.",
+        "severity_score": 6.5,
+        "severity_level": "Medium",
+        "weakness": "CWE-565",
+        "published_date": "2017-03-14 20:59:00"
+    },
+    " Improper Access Control": {
+        "description": "Aruba Networks ClearPass before 6.3.6 and 6.4.x before 6.4.1 does not properly restrict access to unspecified administrative functions, which allows remote attackers to bypass authentication and execute administrative actions via unknown vectors.",
+        "severity_score": 10.0,
+        "severity_level": "Critical",
+        "weakness": "CWE-284",
+        "published_date": "2014-11-19 18:59:00"
+    },
+    " Numeric Errors": {
+        "description": "** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: CVE-2007-6113.  Reason: This candidate is a duplicate of CVE-2007-6113.  Notes: All CVE users should reference CVE-2007-6113 instead of this candidate.  All references and descriptions in this candidate have been removed to prevent accidental usage.",
+        "severity_score": 5.0,
+        "severity_level": "Medium",
+        "weakness": "CWE-189",
+        "published_date": "2007-09-05 19:17:00"
+    },
+    " Cryptographic Issues": {
+        "description": "The default configuration of Mail.app in Mac OS X 10.0 through 10.0.4 and 10.1 through 10.1.5 sends iDisk authentication credentials in cleartext when connecting to Mac.com, which could allow remote attackers to obtain passwords by sniffing network traffic.",
+        "severity_score": 5.0,
+        "severity_level": "Medium",
+        "weakness": "CWE-310",
+        "published_date": "2002-12-31 05:00:00"
+    },
+    " Improper Neutralization of Special Elements used in a Command ('Command Injection')": {
+        "description": "The web interface in BitTorrent allows remote attackers to execute arbitrary commands by leveraging knowledge of the pairing values and a crafted request to port 10000.",
+        "severity_score": 6.8,
+        "severity_level": "Medium",
+        "weakness": "CWE-77",
+        "published_date": "2014-12-12 15:59:00"
+    },
+    " Permission Issues": {
+        "description": "IBM QRadar SIEM 7.1 before MR2 Patch 13 and 7.2 before 7.2.7 uses weak permissions for unspecified directories under the web root, which allows local users to modify data by writing to a file.",
+        "severity_score": 2.1,
+        "severity_level": "Low",
+        "weakness": "CWE-275",
+        "published_date": "2016-11-30 18:59:00"
+    },
+    " Divide By Zero": {
+        "description": "The bm_new function in bitmap.h in potrace before 1.13 allows remote attackers to cause a denial of service (divide-by-zero error and crash) via a crafted BMP image.",
+        "severity_score": 4.3,
+        "severity_level": "Medium",
+        "weakness": "CWE-369",
+        "published_date": "2017-01-31 22:59:00"
+    },
+    " Improper Enforcement of Message Integrity During Transmission in a Communication Channel": {
+        "description": "An issue was discovered in rsn_supp/wpa.c in wpa_supplicant 2.0 through 2.6. Under certain conditions, the integrity of EAPOL-Key messages is not checked, leading to a decryption oracle. An attacker within range of the Access Point and client can abuse the vulnerability to recover sensitive information.",
+        "severity_score": 3.3,
+        "severity_level": "Low",
+        "weakness": "CWE-924",
+        "published_date": "2018-08-08 19:29:00"
+    },
+    " Improper Authorization": {
+        "description": "Huawei XH620 V3, XH622 V3, and XH628 V3 servers with software before V100R003C00SPC610, RH1288 V3 servers with software before V100R003C00SPC613, RH2288 V3 servers with software before V100R003C00SPC617, and RH2288H V3 servers with software before V100R003C00SPC515 allow remote attackers to obtain passwords via a brute-force attack, related to \"lack of authentication protection mechanisms.\"",
+        "severity_score": 5.0,
+        "severity_level": "Medium",
+        "weakness": "CWE-285",
+        "published_date": "2016-09-07 19:28:00"
+    },
+    " Improper Preservation of Permissions": {
+        "description": "An issue was discovered in GitLab Community and Enterprise Edition before 11.5.8, 11.6.x before 11.6.6, and 11.7.x before 11.7.1. It has Incorrect Access Control (issue 3 of 3). When a project with visibility more permissive than the target group is imported, it will retain its prior visibility.",
+        "severity_score": 4.0,
+        "severity_level": "Medium",
+        "weakness": "CWE-281",
+        "published_date": "2019-09-09 21:15:00"
+    },
+    " Incorrect Calculation": {
+        "description": "All versions of the NVIDIA Windows GPU Display Driver contain a vulnerability in the kernel mode layer (nvlddmkm.sys) handler where incorrect calculation may cause an invalid address access leading to denial of service or potential escalation of privileges.",
+        "severity_score": 7.2,
+        "severity_level": "High",
+        "weakness": "CWE-682",
+        "published_date": "2017-05-09 21:29:00"
+    },
+    " Use of Incorrectly-Resolved Name or Reference": {
+        "description": "mainproc.c in GnuPG before 2.2.8 mishandles the original filename during decryption and verification actions, which allows remote attackers to spoof the output that GnuPG sends on file descriptor 2 to other programs that use the \"--status-fd 2\" option. For example, the OpenPGP data might represent an original filename that contains line feed characters in conjunction with GOODSIG or VALIDSIG status codes.",
+        "severity_score": 5.0,
+        "severity_level": "Medium",
+        "weakness": "CWE-706",
+        "published_date": "2018-06-08 21:29:00"
+    },
+    " Data Processing Errors": {
+        "description": "The client in Mumble 1.2.x before 1.2.6 allows remote attackers to force the loading of an external file and cause a denial of service (hang and resource consumption) via a crafted string that is treated as rich-text by a Qt widget, as demonstrated by the (1) user or (2) channel name in a Qt dialog, (3) subject common name or (4) email address to the Certificate Wizard, or (5) server name in a tooltip.",
+        "severity_score": 5.0,
+        "severity_level": "Medium",
+        "weakness": "CWE-19",
+        "published_date": "2014-11-16 11:59:00"
+    },
+    " Use of Externally-Controlled Input to Select Classes or Code ('Unsafe Reflection')": {
+        "description": "In Hibernate Validator 5.2.x before 5.2.5 final, 5.3.x, and 5.4.x, it was found that when the security manager's reflective permissions, which allows it to access the private members of the class, are granted to Hibernate Validator, a potential privilege escalation can occur. By allowing the calling code to access those private members without the permission an attacker may be able to validate an invalid instance and access the private member value via ConstraintViolation#getInvalidValue().",
+        "severity_score": 4.4,
+        "severity_level": "Medium",
+        "weakness": "CWE-470",
+        "published_date": "2018-01-10 15:29:00"
+    },
+    " Insecure Storage of Sensitive Information": {
+        "description": "In KeyStore, there is a possible storage of symmetric keys in the TEE instead of the strongbox due to a missing strongbox flag. This could lead to local information disclosure with System execution privileges needed. User interaction is not needed for exploitation. Product: AndroidVersions: Android-10Android ID: A-109769728",
+        "severity_score": 4.9,
+        "severity_level": "Medium",
+        "weakness": "CWE-922",
+        "published_date": "2019-09-27 19:15:00"
+    },
+    " Information Exposure Through Discrepancy": {
+        "description": "An issue was discovered in Couchbase Server 5.5.x through 5.5.3 and 6.0.0. The Memcached \"connections\" stat block command emits a non-redacted username. The system information submitted to Couchbase as part of a bug report included the usernames for all users currently logged into the system even if the log was redacted for privacy. This has been fixed (in 5.5.4 and 6.0.1) so that usernames are tagged properly in the logs and are hashed out when the logs are redacted.",
+        "severity_score": 5.0,
+        "severity_level": "Medium",
+        "weakness": "CWE-203",
+        "published_date": "2019-09-10 17:15:00"
+    },
+    " Protection Mechanism Failure": {
+        "description": "Client-side enforcement using JavaScript of server-side security options on the Cohu 3960HD allows an attacker to manipulate options sent to the camera and cause malfunction or code execution, as demonstrated by a client-side \"if (!passwordsAreEqual())\" test.",
+        "severity_score": 10.0,
+        "severity_level": "Critical",
+        "weakness": "CWE-693",
+        "published_date": "2017-11-22 08:29:00"
+    },
+    " Information Exposure Through an Error Message": {
+        "description": "Class and method names in error message in Micro Focus Service Manager product versions 9.30, 9.31, 9.32, 9.33, 9.34, 9.35, 9.40, 9.41, 9.50, 9.51, 9.52, 9.60, 9.61, 9.62. This vulnerability could be exploited in some special cases to allow information exposure through an error message.",
+        "severity_score": 4.0,
+        "severity_level": "Medium",
+        "weakness": "CWE-209",
+        "published_date": "2019-09-18 22:15:00"
+    },
+    " 7PK - Errors": {
+        "description": "On Samsung Galaxy S4 through S7 devices, absence of permissions on the BroadcastReceiver responsible for handling the com.[Samsung].android.intent.action.SET_WIFI intent leads to unsolicited configuration messages being handled by wifi-service.jar within the Android Framework, a subset of SVE-2016-6542.",
+        "severity_score": 7.8,
+        "severity_level": "High",
+        "weakness": "CWE-388",
+        "published_date": "2016-10-31 10:59:00"
+    },
+    " Key Management Errors": {
+        "description": "The pstm_reverse function in MatrixSSL before 3.8.4 allows remote attackers to cause a denial of service (invalid memory read and crash) via a (1) zero value or (2) the key's modulus for the secret key during RSA key exchange.",
+        "severity_score": 5.0,
+        "severity_level": "Medium",
+        "weakness": "CWE-320",
+        "published_date": "2017-01-13 16:59:00"
+    },
+    " Improper Control of Resource Identifiers ('Resource Injection')": {
+        "description": "An issue was discovered on Phoenix Contact mGuard devices that have been updated to Version 8.4.0. When updating an mGuard device to Version 8.4.0 via the update-upload facility, the update will succeed, but it will reset the password of the admin user to its default value.",
+        "severity_score": 7.5,
+        "severity_level": "High",
+        "weakness": "CWE-99",
+        "published_date": "2017-02-13 21:59:00"
+    },
+    " Improper Neutralization of Special Elements used in an LDAP Query ('LDAP Injection')": {
+        "description": "EMC Isilon OneFS 8.0.0.0, EMC Isilon OneFS 7.2.1.0 - 7.2.1.2, EMC Isilon OneFS 7.2.0.x, EMC Isilon OneFS 7.1.1.0 - 7.1.1.10, and EMC Isilon OneFS 7.1.0.x is affected by an LDAP injection vulnerability that could potentially be exploited by a malicious user to compromise the system.",
+        "severity_score": 7.2,
+        "severity_level": "High",
+        "weakness": "CWE-90",
+        "published_date": "2017-01-23 07:59:00"
+    },
+    " DEPRECATED: Information Exposure Through Debug Log Files": {
+        "description": "win_useradd, salt-cloud and the Linode driver in salt 2015.5.x before 2015.5.6, and 2015.8.x before 2015.8.1 leak password information in debug logs.",
+        "severity_score": 5.0,
+        "severity_level": "Medium",
+        "weakness": "CWE-534",
+        "published_date": "2017-08-09 16:29:00"
+    },
+    " Unintended Proxy or Intermediary ('Confused Deputy')": {
+        "description": "KanColleViewer versions 3.8.1 and earlier operates as an open proxy which allows remote attackers to trigger outbound network traffic.",
+        "severity_score": 6.4,
+        "severity_level": "Medium",
+        "weakness": "CWE-441",
+        "published_date": "2017-04-13 17:59:00"
+    },
+    " State Issues": {
+        "description": "A vulnerability in the TCP socket code of Cisco IOS and IOS XE Software could allow an unauthenticated, remote attacker to cause an affected device to reload. The vulnerability is due to a state condition between the socket state and the transmission control block (TCB) state. While this vulnerability potentially affects all TCP applications, the only affected application observed so far is the HTTP server. An attacker could exploit this vulnerability by sending specific HTTP requests at a sustained rate to a reachable IP address of the affected software. A successful exploit could allow the attacker to cause the affected device to reload, resulting in a denial of service (DoS) condition on an affected device.",
+        "severity_score": 7.1,
+        "severity_level": "High",
+        "weakness": "CWE-371",
+        "published_date": "2019-01-10 00:29:00"
+    },
+    " Containment Errors (Container Errors)": {
+        "description": "runc through 1.0-rc6, as used in Docker before 18.09.2 and other products, allows attackers to overwrite the host runc binary (and consequently obtain host root access) by leveraging the ability to execute a command as root within one of these types of containers: (1) a new container with an attacker-controlled image, or (2) an existing container, to which the attacker previously had write access, that can be attached with docker exec. This occurs because of file-descriptor mishandling, related to /proc/self/exe.",
+        "severity_score": 9.3,
+        "severity_level": "Critical",
+        "weakness": "CWE-216",
+        "published_date": "2019-02-11 19:29:00"
+    },
+    " Insufficient Entropy in PRNG": {
+        "description": "stunnel before 5.00, when using fork threading, does not properly update the state of the OpenSSL pseudo-random number generator (PRNG), which causes subsequent children with the same process ID to use the same entropy pool and allows remote attackers to obtain private keys for EC (ECDSA) or DSA certificates.",
+        "severity_score": 4.3,
+        "severity_level": "Medium",
+        "weakness": "CWE-332",
+        "published_date": "2014-03-24 16:31:00"
+    },
+    " Improper Control of Dynamically-Managed Code Resources": {
+        "description": "distribute-cache.c in ImageMagick re-uses objects after they have been destroyed, which allows remote attackers to have unspecified impact via unspecified vectors.",
+        "severity_score": 7.5,
+        "severity_level": "High",
+        "weakness": "CWE-913",
+        "published_date": "2017-03-17 14:59:00"
+    },
+    " Configuration": {
+        "description": "distcc 2.x, as used in XCode 1.5 and others, when not configured to restrict access to the server port, allows remote attackers to execute arbitrary commands via compilation jobs, which are executed by the server without authorization checks.",
+        "severity_score": 9.3,
+        "severity_level": "Critical",
+        "weakness": "CWE-16",
+        "published_date": "2004-12-31 05:00:00"
+    },
+    " Improper Encoding or Escaping of Output": {
+        "description": "pkexec, when used with --user nonpriv, allows local users to escape to the parent session via a crafted TIOCSTI ioctl call, which pushes characters to the terminal's input buffer.",
+        "severity_score": 4.4,
+        "severity_level": "Medium",
+        "weakness": "CWE-116",
+        "published_date": "2017-02-13 18:59:00"
+    },
+    " File and Directory Information Exposure": {
+        "description": "Sendio versions before 8.2.1 were affected by a Local File Inclusion vulnerability that allowed an unauthenticated, remote attacker to read potentially sensitive system files via a specially crafted URL.",
+        "severity_score": 5.0,
+        "severity_level": "Medium",
+        "weakness": "CWE-538",
+        "published_date": "2017-07-27 18:29:00"
+    },
+    " Encoding Error": {
+        "description": "codecs/hevcdec/SoftHEVC.cpp in libstagefright in mediaserver in Android 6.0.1 before 2016-08-01 mishandles decoder errors, which allows remote attackers to cause a denial of service (device hang or reboot) via a crafted media file, aka internal bug 28816956.",
+        "severity_score": 7.1,
+        "severity_level": "High",
+        "weakness": "CWE-172",
+        "published_date": "2016-08-05 20:59:00"
+    },
+    " Channel and Path Errors": {
+        "description": "The Multicast DNS (mDNS) responder used in BOSE Soundtouch 30 inadvertently responds to IPv4 unicast queries with source addresses that are not link-local, which allows remote attackers to cause a denial of service (traffic amplification) or obtain potentially sensitive information via port-5353 UDP packets.",
+        "severity_score": 6.4,
+        "severity_level": "Medium",
+        "weakness": "CWE-417",
+        "published_date": "2017-05-01 01:59:00"
+    },
+    " Incorrect Access of Indexable Resource ('Range Error')": {
+        "description": "In F5 BIG-IP APM 12.0.0 through 12.1.2 and 13.0.0, an authenticated user with an established access session to the BIG-IP APM system may be able to cause a traffic disruption if the length of the requested URL is less than 16 characters.",
+        "severity_score": 3.5,
+        "severity_level": "Low",
+        "weakness": "CWE-118",
+        "published_date": "2017-05-09 15:29:00"
+    },
+    " Origin Validation Error": {
+        "description": "An issue was discovered in Smiths-Medical CADD-Solis Medication Safety Software, Version 1.0; 2.0; 3.0; and 3.1. The affected software does not verify the identities at communication endpoints, which may allow a man-in-the-middle attacker to gain access to the communication channel between endpoints.",
+        "severity_score": 6.0,
+        "severity_level": "Medium",
+        "weakness": "CWE-346",
+        "published_date": "2017-02-13 22:59:00"
+    },
+    " Direct Request ('Forced Browsing')": {
+        "description": "\"Dokodemo eye Smart HD\" SCR02HD Firmware 1.0.3.1000 and earlier allows remote attackers to bypass access restriction to view information or modify configurations via unspecified vectors.",
+        "severity_score": 6.4,
+        "severity_level": "Medium",
+        "weakness": "CWE-425",
+        "published_date": "2017-08-29 01:35:00"
+    },
+    " Incorrect Regular Expression": {
+        "description": "PCRE before 8.38 mishandles the /(?:|a|){100}x/ pattern and related patterns, which allows remote attackers to cause a denial of service (infinite recursion) or possibly have unspecified other impact via a crafted regular expression, as demonstrated by a JavaScript RegExp object encountered by Konqueror.",
+        "severity_score": 7.5,
+        "severity_level": "High",
+        "weakness": "CWE-185",
+        "published_date": "2015-12-02 01:59:00"
+    },
+    " Modification of Assumed-Immutable Data (MAID)": {
+        "description": "hoek node module before 4.2.0 and 5.0.x before 5.0.3 suffers from a Modification of Assumed-Immutable Data (MAID) vulnerability via 'merge' and 'applyToDefaults' functions, which allows a malicious user to modify the prototype of \"Object\" via __proto__, causing the addition or modification of an existing property that will exist on all objects.",
+        "severity_score": 6.5,
+        "severity_level": "Medium",
+        "weakness": "CWE-471",
+        "published_date": "2018-03-30 19:29:00"
+    },
+    " Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Response Splitting')": {
+        "description": "CRLF injection vulnerability in Huawei FusionAccess before V100R006C00 allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via unspecified vectors.",
+        "severity_score": 4.3,
+        "severity_level": "Medium",
+        "weakness": "CWE-113",
+        "published_date": "2016-09-07 19:28:00"
+    },
+    " Improperly Implemented Security Check for Standard": {
+        "description": "IBM Security Access Manager for Web could allow a remote attacker to obtain sensitive information due to security misconfigurations.",
+        "severity_score": 5.0,
+        "severity_level": "Medium",
+        "weakness": "CWE-358",
+        "published_date": "2017-02-01 20:59:00"
+    },
+    " 7PK - Code Quality": {
+        "description": "NUUO CMS all versions 3.1 and prior, The application uses insecure and outdated software components for functionality, which could allow arbitrary code execution.",
+        "severity_score": 7.5,
+        "severity_level": "High",
+        "weakness": "CWE-398",
+        "published_date": "2018-10-12 14:29:00"
+    },
+    " External Control of Critical State Data": {
+        "description": "html-janitor node module suffers from an External Control of Critical State Data vulnerability via user-control of the '_sanitized' variable causing sanitization to be bypassed.",
+        "severity_score": 4.3,
+        "severity_level": "Medium",
+        "weakness": "CWE-642",
+        "published_date": "2018-06-04 19:29:00"
+    },
+    " Write-what-where Condition": {
+        "description": "Foxit Reader before 8.3.1 and PhantomPDF before 8.3.1 have an Arbitrary Write vulnerability, which allows remote attackers to execute arbitrary code via a crafted document.",
+        "severity_score": 9.3,
+        "severity_level": "Critical",
+        "weakness": "CWE-123",
+        "published_date": "2017-07-07 16:29:00"
+    },
+    " DEPRECATED: Uncontrolled File Descriptor Consumption": {
+        "description": "The net/http package's Request.ParseMultipartForm method starts writing to temporary files once the request body size surpasses the given \"maxMemory\" limit. It was possible for an attacker to generate a multipart request crafted such that the server ran out of file descriptors.",
+        "severity_score": 5.0,
+        "severity_level": "Medium",
+        "weakness": "CWE-769",
+        "published_date": "2017-10-05 01:29:00"
+    },
+    " Improper Neutralization of CRLF Sequences ('CRLF Injection')": {
+        "description": "CRLF injection vulnerability in Cisco TelePresence TC 6.x before 6.3.4 and 7.x before 7.3.3 on Integrator C SX20 devices allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via a crafted URL, aka Bug ID CSCut79341.",
+        "severity_score": 5.0,
+        "severity_level": "Medium",
+        "weakness": "CWE-93",
+        "published_date": "2015-06-07 18:59:00"
+    },
+    " Incomplete Cleanup": {
+        "description": "In F5 BIG-IP LTM, AAM, AFM, Analytics, APM, ASM, DNS, GTM, Link Controller, PEM and Websafe software version 13.0.0, 12.0.0 to 12.1.2 and 11.5.1 to 11.6.1, under limited circumstances connections handled by a Virtual Server with an associated SOCKS profile may not be properly cleaned up, potentially leading to resource starvation. Connections may be left in the connection table which then can only be removed by restarting TMM. Over time this may lead to the BIG-IP being unable to process further connections.",
+        "severity_score": 5.0,
+        "severity_level": "Medium",
+        "weakness": "CWE-459",
+        "published_date": "2017-10-27 14:29:00"
+    },
+    " Improper Validation of Certificate with Host Mismatch": {
+        "description": "PKId in Juniper Junos OS before 12.1X44-D52, 12.1X46 before 12.1X46-D37, 12.1X47 before 12.1X47-D30, 12.3 before 12.3R12, 12.3X48 before 12.3X48-D20, 13.3 before 13.3R10, 14.1 before 14.1R8, 14.1X53 before 14.1X53-D40, 14.2 before 14.2R7, 15.1 before 15.1R4, 15.1X49 before 15.1X49-D20, 15.1X53 before 15.1X53-D60, and 16.1 before 16.1R1 allow remote attackers to bypass an intended certificate validation mechanism via a self-signed certificate with an Issuer name that matches a valid CA certificate enrolled in Junos.",
+        "severity_score": 6.4,
+        "severity_level": "Medium",
+        "weakness": "CWE-297",
+        "published_date": "2016-09-09 14:05:00"
+    },
+    " Improper Restriction of Power Consumption": {
+        "description": "Honor 5A,Honor 8 Lite,Mate9,Mate9 Pro,P10,P10 Plus Huawei smartphones with software the versions before CAM-L03C605B143CUSTC605D003,the versions before Prague-L03C605B161,the versions before Prague-L23C605B160,the versions before MHA-AL00C00B225,the versions before LON-AL00C00B225,the versions before VTR-AL00C00B167,the versions before VTR-TL00C01B167,the versions before VKY-AL00C00B167,the versions before VKY-TL00C01B167 have a resource exhaustion vulnerability due to configure setting. An attacker tricks a user into installing a malicious application, the application may turn on the device flash-light and rapidly drain the device battery.",
+        "severity_score": 7.1,
+        "severity_level": "High",
+        "weakness": "CWE-920",
+        "published_date": "2017-11-22 19:29:00"
+    },
+    " Missing Initialization of Resource": {
+        "description": "In libavc there is a possible information disclosure due to uninitialized data. This could lead to remote information disclosure with no additional execution privileges needed. User interaction is needed for exploitation. Product: AndroidVersions: Android-10Android ID: A-111762686",
+        "severity_score": 4.3,
+        "severity_level": "Medium",
+        "weakness": "CWE-909",
+        "published_date": "2019-09-27 19:15:00"
+    },
+    " Inappropriate Encoding for Output Context": {
+        "description": "util.c in runV 1.0.0 for Docker mishandles a numeric username, which allows attackers to obtain root access by leveraging the presence of an initial numeric value on an /etc/passwd line, and then issuing a \"docker exec\" command with that value in the -u argument, a similar issue to CVE-2016-3697.",
+        "severity_score": 7.2,
+        "severity_level": "High",
+        "weakness": "CWE-838",
+        "published_date": "2018-04-09 16:29:00"
+    },
+    " Off-by-one Error": {
+        "description": "axTLS version 1.5.3 has a coding error in the ASN.1 parser resulting in the year (19)50 of UTCTime being misinterpreted as 2050.",
+        "severity_score": 5.0,
+        "severity_level": "Medium",
+        "weakness": "CWE-193",
+        "published_date": "2018-01-22 23:29:00"
+    },
+    " Improper Handling of Case Sensitivity": {
+        "description": "Microsoft Windows 8.1 and Windows RT 8.1, Windows Server 2012 R2, Windows 10 Gold, 1511, 1607, and 1703, and Windows Server 2016 allow an attacker to set variables that are either read-only or require authentication when Windows fails to enforce case sensitivity for certain variable checks, aka \"Windows Security Feature Bypass Vulnerability\".",
+        "severity_score": 2.1,
+        "severity_level": "Low",
+        "weakness": "CWE-178",
+        "published_date": "2017-06-15 01:29:00"
+    },
+    " Excessive Iteration": {
+        "description": "A denial of service vulnerability in the Android media framework (libstagefright). Product: Android. Versions: 4.4.4, 5.0.2, 5.1.1, 6.0, 6.0.1, 7.0, 7.1.1, 7.1.2, 8.0. Android ID: A-62673179.",
+        "severity_score": 7.1,
+        "severity_level": "High",
+        "weakness": "CWE-834",
+        "published_date": "2017-09-08 20:29:00"
+    },
+    " Incorrect Conversion between Numeric Types": {
+        "description": "Another vulnerability in the Android media framework (n/a). Product: Android. Versions: 7.0, 7.1.1, 7.1.2, 8.0. Android ID: A-65122447.",
+        "severity_score": 7.8,
+        "severity_level": "High",
+        "weakness": "CWE-681",
+        "published_date": "2017-11-16 23:29:00"
+    },
+    " Improper Neutralization of Argument Delimiters in a Command ('Argument Injection')": {
+        "description": "Atlassian Fisheye and Crucible versions less than 4.4.3 and version 4.5.0 are vulnerable to argument injection through filenames in Mercurial repositories, allowing attackers to execute arbitrary code on a system running the impacted software.",
+        "severity_score": 9.3,
+        "severity_level": "Critical",
+        "weakness": "CWE-88",
+        "published_date": "2017-11-29 21:29:00"
+    },
+    " Improperly Controlled Modification of Dynamically-Determined Object Attributes": {
+        "description": "Passing an absolute path to a file_exists check in phpBB before 3.2.4 allows Remote Code Execution through Object Injection by employing Phar deserialization when an attacker has access to the Admin Control Panel with founder permissions.",
+        "severity_score": 6.5,
+        "severity_level": "Medium",
+        "weakness": "CWE-915",
+        "published_date": "2018-11-17 13:29:00"
+    },
+    " Unchecked Return Value": {
+        "description": "A remote denial of service vulnerability in libhevc in Mediaserver could enable an attacker to use a specially crafted file to cause a device hang or reboot. This issue is rated as High severity due to the possibility of remote denial of service. Product: Android. Versions: 6.0, 6.0.1, 7.0, 7.1.1, 7.1.2. Android ID: A-34672748.",
+        "severity_score": 7.1,
+        "severity_level": "High",
+        "weakness": "CWE-252",
+        "published_date": "2017-05-12 15:29:00"
+    },
+    " Incorrect Usage of Seeds in Pseudo-Random Number Generator (PRNG)": {
+        "description": "passwd_recovery.lua on the TP-Link Archer C9(UN)_V2_160517 allows an attacker to reset the admin password by leveraging a predictable random number generator seed. This is fixed in C9(UN)_V2_170511.",
+        "severity_score": 5.0,
+        "severity_level": "Medium",
+        "weakness": "CWE-335",
+        "published_date": "2017-07-21 21:29:00"
+    },
+    " Release of Invalid Pointer or Reference": {
+        "description": "A elevation of privilege vulnerability in the Android media framework (mpeg4 encoder). Product: Android. Versions: 4.4.4, 5.0.2, 5.1.1, 6.0, 6.0.1, 7.0, 7.1.1, 7.1.2. Android ID: A-36075363.",
+        "severity_score": 6.8,
+        "severity_level": "Medium",
+        "weakness": "CWE-763",
+        "published_date": "2017-08-09 21:29:00"
+    },
+    " Operation on a Resource after Expiration or Release": {
+        "description": "An elevation of privilege vulnerability in CameraBase could enable a local malicious application to execute arbitrary code. This issue is rated as High because it is a local arbitrary code execution in a privileged process. Product: Android. Versions: 4.4.4, 5.0.2, 5.1.1, 6.0, 6.0.1, 7.0, 7.1.1. Android ID: A-31992879.",
+        "severity_score": 9.3,
+        "severity_level": "Critical",
+        "weakness": "CWE-672",
+        "published_date": "2017-04-07 22:59:00"
+    },
+    " Incorrect Calculation of Buffer Size": {
+        "description": "An elevation of privilege vulnerability exists in Windows when LDAP request buffer lengths are improperly calculated. In a remote attack scenario, an attacker could exploit this vulnerability by running a specially crafted application to send malicious traffic to a Domain Controller, aka \"LDAP Elevation of Privilege Vulnerability.\"",
+        "severity_score": 9.3,
+        "severity_level": "Critical",
+        "weakness": "CWE-131",
+        "published_date": "2017-04-12 14:59:00"
+    },
+    " Always-Incorrect Control Flow Implementation": {
+        "description": "An elevation of privilege vulnerability in the kernel Qualcomm power driver could enable a local malicious application to execute arbitrary code within the context of the kernel. This issue is rated as Critical due to the possibility of a local permanent device compromise, which may require reflashing the operating system to repair the device. Product: Android. Versions: N/A. Android ID: A-35392981. References: QC-CR#826589.",
+        "severity_score": 9.3,
+        "severity_level": "Critical",
+        "weakness": "CWE-670",
+        "published_date": "2017-05-12 15:29:00"
+    },
+    " Exposed Dangerous Method or Function": {
+        "description": "The Suite REST API in VMware vRealize Operations (aka vROps) 6.x before 6.4.0 allows remote authenticated users to write arbitrary content to files or rename files via a crafted DiskFileItem in a relay-request payload that is mishandled during deserialization.",
+        "severity_score": 7.5,
+        "severity_level": "High",
+        "weakness": "CWE-749",
+        "published_date": "2016-12-29 09:59:00"
+    },
+    " Inefficient Algorithmic Complexity": {
+        "description": "Due to an incomplete fix for CVE-2012-6125, all versions of CHICKEN Scheme up to and including 4.12.0 are vulnerable to an algorithmic complexity attack. An attacker can provide crafted input which, when inserted into the symbol table, will result in O(n) lookup time.",
+        "severity_score": 5.0,
+        "severity_level": "Medium",
+        "weakness": "CWE-407",
+        "published_date": "2017-07-17 13:18:00"
+    },
+    " Improper Enforcement of Message or Data Structure": {
+        "description": "An exploitable vulnerability exists in the remote servers of Samsung SmartThings Hub STH-ETH-250 - Firmware version 0.20.17. The hubCore process listens on port 39500 and relays any unauthenticated messages to SmartThings' remote servers, which incorrectly handle camera IDs for the 'sync' operation, leading to arbitrary deletion of cameras. An attacker can send an HTTP request to trigger this vulnerability.",
+        "severity_score": 6.4,
+        "severity_level": "Medium",
+        "weakness": "CWE-707",
+        "published_date": "2018-08-27 15:29:00"
+    },
+    " Information Management Errors": {
+        "description": "app/views/timelog/_form.html.erb in Redmine before 2.6.8, 3.0.x before 3.0.6, and 3.1.x before 3.1.2 allows remote attackers to obtain sensitive information about subjects of issues by viewing the time logging form.",
+        "severity_score": 5.0,
+        "severity_level": "Medium",
+        "weakness": "CWE-199",
+        "published_date": "2016-04-12 14:59:00"
+    },
+    " Pathname Traversal and Equivalence Errors": {
+        "description": "The filesystem storage backend in Radicale before 1.1 on Windows allows remote attackers to read or write to arbitrary files via a crafted path, as demonstrated by /c:/file/ignore.",
+        "severity_score": 7.5,
+        "severity_level": "High",
+        "weakness": "CWE-21",
+        "published_date": "2016-02-03 18:59:00"
+    },
+    " Improper Control of a Resource Through its Lifetime": {
+        "description": "The TrustZone driver in Huawei P9 phones with software Versions earlier than EVA-AL10C00B352 and P9 Lite with software VNS-L21C185B130 and earlier versions and P8 Lite with software ALE-L02C636B150 and earlier versions has an improper resource release vulnerability, which allows attackers to cause a system restart or privilege elevation.",
+        "severity_score": 9.3,
+        "severity_level": "Critical",
+        "weakness": "CWE-664",
+        "published_date": "2017-04-02 20:59:00"
+    },
+    " DEPRECATED: Code": {
+        "description": "Apache Cordova Android before 3.5.1 allows remote attackers to change the start page via a crafted intent URL.",
+        "severity_score": 6.4,
+        "severity_level": "Medium",
+        "weakness": "CWE-17",
+        "published_date": "2014-11-15 21:59:00"
+    },
+    " DEPRECATED: Source Code": {
+        "description": "Barracuda Web Filter 7.x and 8.x before 8.1.0.005, when SSL Inspection is enabled, uses the same root Certification Authority certificate across different customers' installations, which makes it easier for remote attackers to conduct man-in-the-middle attacks against SSL sessions by leveraging the certificate's trust relationship.",
+        "severity_score": 4.3,
+        "severity_level": "Medium",
+        "weakness": "CWE-18",
+        "published_date": "2015-05-25 22:59:00"
+    },
+    " Improper Neutralization of Special Elements in Data Query Logic": {
+        "description": "An Improper Neutralization of Special Elements (in an OS command) issue was discovered in Geutebruck IP Camera G-Cam/EFD-2250 Version 1.11.0.12. An improper neutralization of special elements vulnerability has been identified. If special elements are not properly neutralized, an attacker can call multiple parameters that can allow access to the root level operating system which could allow remote code execution.",
+        "severity_score": 10.0,
+        "severity_level": "Critical",
+        "weakness": "CWE-943",
+        "published_date": "2017-05-19 03:29:00"
+    },
+    " 7PK - Time and State": {
+        "description": "The ImageInputType::ensurePrimaryContent function in WebKit/Source/core/html/forms/ImageInputType.cpp in Blink, as used in Google Chrome before 49.0.2623.87, does not properly maintain the user agent shadow DOM, which allows remote attackers to cause a denial of service or possibly have unspecified other impact via vectors that leverage \"type confusion.\"",
+        "severity_score": 9.3,
+        "severity_level": "Critical",
+        "weakness": "CWE-361",
+        "published_date": "2016-03-13 22:59:00"
+    },
+    " Asymmetric Resource Consumption (Amplification)": {
+        "description": "A vulnerability in the lservnt.exe component of Sentinel License Manager version 8.5.3.35 (fixed in 8.5.3.2403) causes UDP amplification.",
+        "severity_score": 5.0,
+        "severity_level": "Medium",
+        "weakness": "CWE-405",
+        "published_date": "2018-08-18 02:29:00"
+    },
+    " Allocation of File Descriptors or Handles Without Limits or Throttling": {
+        "description": "Minio Inc. Minio S3 server version prior to RELEASE.2018-05-16T23-35-33Z contains a Allocation of Memory Without Limits or Throttling (similar to CWE-774) vulnerability in write-to-RAM that can result in Denial of Service. This attack appear to be exploitable via Sending V4-(pre)signed requests with large bodies . This vulnerability appears to have been fixed in after commit 9c8b7306f55f2c8c0a5c7cea9a8db9d34be8faa7.",
+        "severity_score": 5.0,
+        "severity_level": "Medium",
+        "weakness": "CWE-774",
+        "published_date": "2018-06-26 16:29:00"
+    },
+    " DEPRECATED: Location": {
+        "description": "In all Qualcomm products with Android releases from CAF using the Linux kernel, the UE can send unprotected MeasurementReports revealing UE location.",
+        "severity_score": 10.0,
+        "severity_level": "Critical",
+        "weakness": "CWE-1",
+        "published_date": "2017-08-18 18:29:00"
+    },
+    " Incomplete Blacklist": {
+        "description": "Incomplete blacklist in SOGo before 2.3.12 and 3.x before 3.1.1 allows remote authenticated users to obtain sensitive information by reading the fields in the (1) ics or (2) XML calendar feeds.",
+        "severity_score": 4.0,
+        "severity_level": "Medium",
+        "weakness": "CWE-184",
+        "published_date": "2017-02-17 17:59:00"
+    },
+    " Missing Release of File Descriptor or Handle after Effective Lifetime": {
+        "description": "All versions of NVIDIA Windows GPU Display Driver contain a vulnerability in the kernel mode layer (nvlddmkm.sys) handler for DxgkDdiEscape where a handle to a kernel object may be returned to the user, leading to possible denial of service or escalation of privileges.",
+        "severity_score": 7.2,
+        "severity_level": "High",
+        "weakness": "CWE-775",
+        "published_date": "2016-12-16 21:59:00"
+    }
+}
