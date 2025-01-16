@@ -32,7 +32,7 @@ git clone https://github.com/Caldwell10/CVE-Chatbot.git
 cd ai-cybersec-chatbot 
 ```
 ## **Usage**
-### **Run the Flask API server:
+### **Run the Flask API server:**
 ```bash
 python run.py
 ```
