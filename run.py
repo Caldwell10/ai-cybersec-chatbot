@@ -1,11 +1,13 @@
-from flask import Flask
+from flask import Flask, render_template
 from app.routes import chatbot
+import os
 
-# Initialize Flask
-app = Flask(__name__)
-
-# Register the chatbot routes
+app = Flask(__name__, static_folder="static", template_folder="static")
 app.register_blueprint(chatbot)
 
-if __name__ == '__main__':
+@app.route("/")
+def index():
+    return app.send_static_file("index.html")
+
+if __name__ == "__main__":
     app.run(debug=True)

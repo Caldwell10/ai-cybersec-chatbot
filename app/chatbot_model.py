@@ -45,7 +45,3 @@ def filter_cve_by_severity(severity):
                for key, data in knowledge_base.items() if data['severity_level'] == severity]
     return "\n\n".join(results) if results else f"No CVEs found with severity '{severity}'."
 
-#test
-if __name__ == "__main__":
-    keyword = "passwords"
-    print(search_cve_by_keyword(keyword))
