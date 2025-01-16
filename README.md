@@ -28,7 +28,7 @@ The CVE Chatbot is a full-stack web application designed to improve cybersecurit
 ### **Clone the repository**
 
 ```bash
-
+git clone https://github.com/Caldwell10/CVE-Chatbot.git
 cd ai-cybersec-chatbot 
 ```
 ## **Usage**
