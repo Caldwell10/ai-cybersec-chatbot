@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Chatbot for Cybersecurity Awareness</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>CVE Chatbot</h1>
+    <div id="container">
+        <div class="section">
+        <!--Chat Functionality -->
+        <h3>Search by CVE Name</h3>
+        <textarea id="cveName" placeholder="Enter CVE name"></textarea>
+        <button id="chat-btn">Search</button>
+        </div>
+
+     <!--Search by Keyword -->
+    <div class="section">
+        <h3>Search by Keyword</h3>
+        <input type="text" id="keyword" placeholder="Enter keyword">
+        <button id="search-btn">Search</button>
+    </div>
+     <!-- Filter by Severity -->
+    <div class="section">
+            <h3>Filter by Severity</h3>
+            <input type="text" id="severity" placeholder="Enter severity (e.g., Low, Medium, High, Critical)">
+            <button id="filter-btn">Filter</button>
+    </div>
+
+    <!-- Display Response -->
+    <div id="response"></div>
+    </div>
+
+    <script src="script.js"></script>
+
+
+</body>
+</html>
